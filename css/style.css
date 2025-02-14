@@ -59,10 +59,7 @@ font-weight: 400;
 .head__contetn{
    max-width: 100%;
    height: 60vh;
-   background-image: linear-gradient(to bottom,
-    rgba(255, 255, 255, .1) ,
-     rgba(0, 0, 0, 1)) ,
-     url(../image/Rectangle\ 75.png);
+   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, black 98%) , url(../image/Rectangle\ 75.png);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -87,6 +84,303 @@ font-weight: 400;
    max-width: 560px;
 }
 
+.colection{
+   padding: 150px 0;
+   background-color: #fff;
+   text-align: center;
+}
 
+.colection__text {
+   max-width: 745px;
+   font-family: "Cormorant", serif;
+font-size: 40px;
+font-weight: lighter;
+font-style: italic;
+margin: 0 auto;
+   padding-bottom: 150px;
+}
 
+.h3__titel{
+   font-family: "Cormorant", serif;
+font-size: 40px;
+font-weight: 400;
+padding-bottom: 60px;
+text-align: center;
+
+}
+
+.colection_links{
+   display: flex;
+   gap: 40px;
+}
+
+.colection__item a{
+color: #151618;
+font-family: "Cormorant", serif;
+font-size: 24px;
+font-weight: 400;
+padding-top: 10px;
+}
+
+.clients{
+   background-color: #F7F2EA;
+   padding:60px;
+   margin-bottom: 150px;
+}
+
+.clients__com{
+   display: flex;
+   gap: 26px;
+}
+
+.clients__item{
+   font-size: 16px;
+font-weight: lighter;
+font-style: italic;
+padding-bottom: 10px;
+}
+
+.autor{
+   font-size: 20px;
+font-weight:bold;
+}
+
+.blog{
+   text-align: center;
+   padding-bottom: 150px;
+}
+
+.blog_cont{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px;
+   padding-bottom: 60px;
+}
+
+.blog__item {
+   max-width: 542px;
+   display: flex;
+   gap: 20px;
+}
+
+.h4-blog{
+   font-family: "Cormorant", serif;
+font-size: 24px;
+font-weight: 400;
+}
+
+.p-blog{
+   font-size: 13px;
+   font-weight: lighter;
+}
+
+.blog__item-cont a {
+color: #151618;
+}
+
+.blog__item-cont{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   text-align: left;
+}
+
+.blog__btn{
+   padding: 12px 41px;
+   background-color: inherit;
+   border: 1px solid #151618;
+   color: #151618;
+   font-family: "Open Sans", serif;
+font-size: 20px;
+font-weight: lighter;
+cursor: pointer;
+
+}
+
+.section-form{
+   padding: 100px 0;
+   margin-bottom: 150px;
+   background-color: #F7F2EA;
+   background-image: url(../image/tea\ 1.png)
+   ;
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+.titel_form{
+   padding-bottom: 50px;
+   text-align: left;
+}
+
+.container__mini{
+   display: flex;
+   gap: 40px;
+}
+
+.text_form{
+   max-width: 580px;
+   font-size: 20px;
+font-weight: lighter;
+}
+
+.form {
+   vertical-align: bottom;
+}
+.input{
+   width: 434px;
+   height: 23px;
+   border: none;
+   background-color: transparent;
+   border-bottom: 2px solid #B8B58B;
+   opacity: .6;
+font-weight: lighter;
+vertical-align: bottom;
+margin-bottom: 10px;
+
+}
+input::placeholder{
+   color: #B8B58B;
+   font-size: 20px;
+font-weight: lighter;
+}
+.form-btn{
+   padding: 12px 41px;
+   background-color: #fff;
+   border: 1px solid #151618;
+   color: #151618;
+   font-family: "Open Sans", serif;
+font-size: 20px;
+font-weight: lighter;
+cursor: pointer;
+margin-left: 20px;
+margin-bottom: 10px;
+
+}
+
+.text_form-item{
+   max-width: 560px;
+   padding-left: 26px;
+   font-size: 13px;
+font-weight: lighter;
+}
  
+.form-cont{
+   position: relative; 
+}
+
+.checkbox{
+   position: absolute;
+   top: 3px;
+   left: 0;
+   border-radius: 0;
+   border-color: #151618;
+}
+
+.prior_content{
+   display: flex;
+   justify-content: space-between;
+   gap: 60px;
+   padding-bottom: 150px;
+}
+
+.prior__item{
+   text-align: center;
+}
+
+.prior__title{
+   font-size: 27px;
+font-weight: lighter;
+padding-bottom: 10px;
+}
+
+.prior__text{
+   font-size: 19px;
+padding-bottom: 30px;
+}
+.container-footer{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.footer{
+   background-color: #F7F2EA;
+   padding-top: 100px;
+   padding-bottom: 20px;
+}
+.products{
+margin-right: 200px;
+}
+
+.text_footer{
+   font-family: "Cormorant", serif;
+font-size: 24px;
+font-weight: 400;
+padding-bottom: 50px;
+}
+
+.footer_item{
+   font-size: 16px;
+font-weight: lighter;
+padding-bottom: 20px;
+}
+
+.company-content{
+   max-width: 270px;
+}
+
+.company_item{
+   font-size: 16px;
+   font-weight: lighter;
+   font-style: italic;
+   padding-bottom: 20px;
+   padding-top: 80px;
+}
+
+.company-autor{
+   font-size: 12px;
+   font-weight: lighter;
+}
+
+.stay{
+   max-width: 270px; 
+}
+
+.stay-cont{
+   display: flex;
+   gap: 40px;
+   padding-top: 20px;
+   align-items: center;
+   padding-bottom: 40px;
+}
+
+.stay-text,
+.foot-text {
+   font-size: 15px;
+   font-weight: lighter;
+   color: #151618;
+}
+.stay_contact{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.stay_list{
+   display: flex;
+   align-items: center;
+   gap: 22px;
+   justify-content: end;
+}
+
+.footer_pay{
+   max-width: 470px;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 100px;
+}
+
+.foot-list{
+   display: flex;
+   gap: 20px;
+}
