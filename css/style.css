@@ -474,7 +474,7 @@ input::placeholder {
       position: absolute; 
       width: 30px;
       height: 30px;
-      margin-left: 120px;
+      margin-left: 80px;
 
     }
     .close:before,
@@ -495,10 +495,7 @@ input::placeholder {
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
     }
-    .close:hover:before,
-    .close:hover:after{
-      border-color: #f00;
-    }
+    
 
 
 
@@ -662,11 +659,6 @@ input::placeholder {
    .nav__make{
       gap: 50px;
 
-   }
-   
-   body{
-      background-color: #151618;
-      z-index: 5;
    }
 
    .burger {
