@@ -127,7 +127,14 @@ body {
 
 .colection_links {
    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
    gap: 40px;
+}
+
+.colection__item{
+display: flex;
+   flex-direction: column;
 }
 
 .colection__item a {
@@ -136,6 +143,7 @@ body {
    font-size: 24px;
    font-weight: 400;
    padding-top: 10px;
+   
 }
 
 .clients {
@@ -291,7 +299,9 @@ input::placeholder {
    font-weight: lighter;
 }
 
-
+.form-cont{
+   position: relative;
+}
 
 .checkbox {
    position: absolute;
@@ -472,8 +482,8 @@ input::placeholder {
 
    .close{
       position: absolute; 
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
       margin-left: 80px;
 
     }
@@ -508,6 +518,10 @@ input::placeholder {
 
 
 @media (max-width:1000px) {
+
+   .colection_links {
+      gap: 10px;
+   }
 
    .input {
       max-width: 280px;
@@ -576,16 +590,8 @@ input::placeholder {
    .header{
       padding-top: 10px;
    }
-   .colection_links {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
-   }
-
-   .colection__item {
-      display: flex;
-      flex-direction: column;
-   }
+   
+   
 
    .clients__com {
       flex-wrap: wrap;
@@ -656,7 +662,7 @@ input::placeholder {
       background-color: #B8B58B;
       padding: 20px 0;
    }
-   .nav__make{
+   .NM{
       gap: 50px;
 
    }
